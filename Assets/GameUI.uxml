@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameMenu.uss?fileID=7433441132597879392&amp;guid=5fd457fa85800f0d8a799b32bb58322f&amp;type=3#GameMenu" />
+    <ui:VisualElement name="in-game-buttons" style="flex-direction: row-reverse;">
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="exit-button" class="button" />
+        <ui:Button text="Pause" display-tooltip-when-elided="true" name="pause-button" class="button" style="display: flex;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="start-menu-wrapper" style="display: flex; flex-grow: 1;">
+        <ui:VisualElement style="align-items: center; flex-grow: 1; justify-content: center;">
+            <ui:Label text="Use the left and right arrow keys to avoid th falling blocks." display-tooltip-when-elided="true" />
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" style="width: 100px; height: 50px; flex-direction: column; color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(23, 171, 15); background-color: rgb(20, 229, 0); white-space: normal; font-size: 26px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

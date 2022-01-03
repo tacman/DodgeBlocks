@@ -1,0 +1,7 @@
+.button {
+    width: 5%;
+    max-width: none;
+    min-width: 40px;
+    background-color: rgb(94, 8, 34);
+    color: rgb(255, 255, 255);
+}
